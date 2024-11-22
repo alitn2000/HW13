@@ -7,6 +7,6 @@ public static class Connection
 
      static Connection()
     {
-        ConnectionString = @"Data Source=DESKTOP-URA992G\SQLEXPRESS; Initial Catalog=Library; Integrated Security=true ;TrustServerCertificate=True;";
+        ConnectionString = @"Data Source=DESKTOP-URA992G\SQLEXPRESS; Initial Catalog=LibraryManager; Integrated Security=true ;TrustServerCertificate=True;";
     }
 }

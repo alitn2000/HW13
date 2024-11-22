@@ -12,8 +12,8 @@ public class AdminConfig : IEntityTypeConfiguration<Admin>
 
 
         builder.HasData(
-              new Admin {UserName = "admin", Password = "admin" },
-              new Admin {UserName = "admin1", Password = "admin1" }
+              new Admin {Id = 1,UserName = "admin", Password = "admin" },
+              new Admin {Id = 2,UserName = "admin1", Password = "admin1" }
             );
        
     }

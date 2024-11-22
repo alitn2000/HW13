@@ -144,6 +144,7 @@ D:\c#\HW`S\HW13\HW13\obj\Debug\net8.0\HW13.GeneratedMSBuildEditorConfig.editorco
 D:\c#\HW`S\HW13\HW13\obj\Debug\net8.0\HW13.AssemblyInfoInputs.cache
 D:\c#\HW`S\HW13\HW13\obj\Debug\net8.0\HW13.AssemblyInfo.cs
 D:\c#\HW`S\HW13\HW13\obj\Debug\net8.0\HW13.csproj.CoreCompileInputs.cache
+D:\c#\HW`S\HW13\HW13\obj\Debug\net8.0\HW13.sourcelink.json
 D:\c#\HW`S\HW13\HW13\obj\Debug\net8.0\HW13.csproj.Up2Date
 D:\c#\HW`S\HW13\HW13\obj\Debug\net8.0\HW13.dll
 D:\c#\HW`S\HW13\HW13\obj\Debug\net8.0\refint\HW13.dll

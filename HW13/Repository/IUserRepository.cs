@@ -7,6 +7,9 @@ public interface IUserRepository
 {
     void AddUser(User user);
     User GetUser(string userName, string Pass);
-    List<User> GetAllUsers();
+    Admin GetAdmin(string userName, string Pass);
+    List<User>? GetAllUsers();
     bool CheckUserExist(string userName);
+    User GetUserById(int userId);
+    void UpdateUserLicense(User user);
 }

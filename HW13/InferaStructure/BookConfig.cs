@@ -18,10 +18,10 @@ public class BookConfig : IEntityTypeConfiguration<Book>
 
         builder.HasData(
 
-            new Book { Id = 1, Title = "AnnaKarenina", Author = "Tolstoy", Publisher = "A", Price = 120,Status =Bookstatus.Accessible,UserId =1 },
-            new Book { Id = 2, Title = "War&Peace", Author = "Tolstoy", Publisher = "B", Price = 140, Status = Bookstatus.Accessible, UserId = 1 },
-            new Book { Id = 3, Title = "TheBrothersOfKaramazov", Author = "Dostoevsky", Publisher = "C", Price = 200, Status = Bookstatus.Accessible,UserId = 1 },
-            new Book { Id = 4, Title = "TheGambler", Author = "Dostoevsky", Publisher = "D", Price = 90, Status = Bookstatus.Accessible,UserId = 1 }
+            new Book { Id = 1, Title = "AnnaKarenina", Author = "Tolstoy", Publisher = "A", Price = 120, BorrowedDate = new DateTime(2024, 11, 22, 0, 0, 0), Status = Bookstatus.Borrowd, UserId = 1 },
+            new Book { Id = 2, Title = "War&Peace", Author = "Tolstoy", Publisher = "B", Price = 140, BorrowedDate = new DateTime(2024, 11, 22, 0, 0, 0), Status = Bookstatus.Borrowd, UserId = 1 },
+            new Book { Id = 3, Title = "TheBrothersOfKaramazov", Author = "Dostoevsky", Publisher = "C", Price = 200, BorrowedDate = new DateTime(2024, 11, 22, 0, 0, 0), Status = Bookstatus.Borrowd, UserId = 1 },
+            new Book { Id = 4, Title = "TheGambler", Author = "Dostoevsky", Publisher = "D", Price = 90, BorrowedDate = new DateTime(2024, 11, 22, 0, 0, 0), Status = Bookstatus.Borrowd, UserId = 1 }
             );
 
 
